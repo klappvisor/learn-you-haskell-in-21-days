@@ -1,0 +1,16 @@
+# Typical LaTeX documents
+book.aux
+book.bbl
+book.blg
+book.log
+book.out
+book.toc
+
+*.pdf
+
+*.dia.autosave
+
+project/
+
+texput.log
+book.synctex.gz
