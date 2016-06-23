@@ -1,10 +1,14 @@
-\section{Teach Yourself Haskell in 24 Hours- LOL}
+\section{Teach Yourself Haskell in 24 Hours - LOL}
 
-Teach Yourself Haskell in 24 Hours- LOL.
+Did you really think that you can learn Haskell in 24 hours?! LOOOOL
 
-LolLol LolLol Lol LolLolLolLolLol Lol Lol (\emph{LOL}, \emph{ROLF}, \emph{LOL}, \emph{ROLF}). Teach Yourself Haskell in 24 Hours- LOL
+Teach Yourself Haskell in 24 Hours - LOL.
+
+LolLol LolLol Lol LolLolLolLolLol Lol Lol (\emph{LOL}, \emph{ROLF}, \emph{LMAO}, \emph{LMFAO}). Teach Yourself Haskell in 24 Hours- LOL
 
 LOL LOL LOL LOL LOL LOL LOL LOL \emph{ROLF LOL} LOL LOL LOL LOL LOL LOL LOL.
+
+Code example which illustrates it:
 
 \begin{verbatim}
 --  Haskell in 24 Hours- LOL
@@ -16,15 +20,54 @@ instance Monoid Lol where
 
 \end{verbatim}
 
-Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
-Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
-Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
 
-Teach Yourself Haskell in 24 Hours- LOL (\texttt{Lol} Teach Yourself Haskell in 24 Hours- LOL). Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.
+\begin{verbatim}
+import Control.Monad
+import Control.Concurrent
+import Control.Concurrent.STM
 
-\subsection{Teach Yourself Haskell in 24 Hours- ROLF}
+main = do
+    lols <- atomically $ newTVar 0
+    forM_ [0..49] $ \_ -> do
+        forkIO . forever $ do
+            atomically $ modifyTVar lols (+1)
+            threadDelay 100
 
-Teach Yourself Haskell in 24 Hours- LOOOOOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.. Teach Yourself Haskell in 24 Hours- LOL.
+    threadDelay 1000000
+    lolsFinal <- atomically $ readTVar lols
+    putStrLn $ "lols: " ++ show lolsFinal
+\end{verbatim}
 
-Teach Yourself Haskell in 24 Hours- LOL.Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.
-Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL. Teach Yourself Haskell in 24 Hours- LOL.  Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL. Learn You Haskell in 24 Hours- LOL.
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+
+Teach Yourself Haskell in 24 Hours - LOL (\texttt{Lol} Teach Yourself Haskell in 24 Hours - LOL). Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.
+
+\subsection{Teach Yourself Haskell in 24 Hours - ROLF}
+
+Teach Yourself Haskell in 24 Hours - LOOOOOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.. Teach Yourself Haskell in 24 Hours - LOL.
+
+Teach Yourself Haskell in 24 Hours - LOL.Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.
+
+\begin{verbatim}
+import Data.Tuple
+
+data Lol = Lol | Rolf deriving (Show)
+
+main = print $ swap (Rolf, Lol)
+\end{verbatim}
+
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+
+\begin{verbatim}
+f >>> g
+\end{verbatim}
+
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL. Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL. Learn You Haskell in 24 Hours - LOL.
+
+Teach Yourself Haskell in 24 Hours - LOL.  Haskell in 24 Hours - LOL.

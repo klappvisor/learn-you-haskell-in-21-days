@@ -14,7 +14,6 @@
 \usepackage{epstopdf}
 \usepackage[margin=1in, paperwidth=6in, paperheight=9in]{geometry}
 \usepackage[utf8]{inputenc}
-\renewcommand\bibname{References}
 
 % Shrinks the size of VERBATIM text
 % http://tex.stackexchange.com/a/133442/44007
@@ -50,11 +49,15 @@
 	\vspace*{\stretch{3}}
 	\clearpage
 }
+% Book's title and subtitle
+\title{\Huge \textbf{Teach Yourself Haskell \newline in 24 Hours} \\ \huge The Ultimate Personal Training Kit\thanks{\url{https://github.com/klappvisor/teach-yourself-haskell-in-24-hours}}}
+% Author
+\author{\textsc{Roman Byzantine}}
 
 \begin{document}
-
+%\frontmatter
 \input{content/cover.tex}
-\mainmatter
+%\mainmatter
 \input{content/toc.tex}
 \input{content/intro.tex}
 \input{content/Hour1.tex}
@@ -78,6 +81,9 @@
 \input{content/Hour19.tex}
 \input{content/Hour20.tex}
 \input{content/Hour21.tex}
+\input{content/Hour22.tex}
+\input{content/Hour23.tex}
+\input{content/Hour24.tex}
 \input{content/cover-rear.tex}
 
 \end{document}
