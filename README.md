@@ -1,31 +1,31 @@
-# Teach Yourself Haskell in 21 days
+# Teach Yourself Haskell in 24 Hours
 
 TODO: Short intro
 
 ## Table of Content
 
 * Introduction
-* Day 1 - Getting Started
-* Day 2 - Hello World
-* Day 3 - Haskell Syntax
-* Day 4 - Thinking functionally
-* Day 5 - Laziness
-* Day 6 - Referential transparency
-* Day 7 - Work with collections
-* Day 8 - Pattern matching
-* Day 9 - Working with Strings
-* Day 10 - Error handling
-* Day 11 - Maybe, Either and others
-* Day 12 - Modules and Imports
-* Day 13 - Type System
-* Day 14 - Polymorphism
-* Day 15 - Typeclasses
-* Day 16 - Monadic computation
-* Day 17 - Functors
-* Day 18 - Applicative functors
-* Day 19 - Monoids
-* Day 20 - Lenses
-* Day 21 - Combinators
+* Hour 1 - Getting Started
+* Hour 2 - Hello World
+* Hour 3 - Haskell Syntax
+* Hour 4 - Thinking functionally
+* Hour 5 - Laziness
+* Hour 6 - Referential transparency
+* Hour 7 - Work with collections
+* Hour 8 - Pattern matching
+* Hour 9 - Working with Strings
+* Hour 10 - Error handling
+* Hour 11 - Maybe, Either and others
+* Hour 12 - Modules and Imports
+* Hour 13 - Type System
+* Hour 14 - Polymorphism
+* Hour 15 - Typeclasses
+* Hour 16 - Monadic computation
+* Hour 17 - Functors
+* Hour 18 - Applicative functors
+* Hour 19 - Monoids
+* Hour 20 - Lenses
+* Hour 21 - Combinators
  
 ## Downloading PDFs
 

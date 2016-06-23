@@ -1,18 +1,17 @@
 \documentclass{book}
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{0}
-\title{Teach Yourself Haskell in 21 Days}
+\title{Teach Yourself Haskell in 24 Hours}
 \author{Roman Byzantine}
 \date{June 2016}
 \usepackage[pdftex,
             pdfauthor={Roman Byzantine},
-            pdftitle={Teach Yourself Haskell in 21 Days},
-            pdfsubject={Teach Yourself Haskell in 21 Days},
+            pdftitle={Teach Yourself Haskell in 24 Hours},
+            pdfsubject={Teach Yourself Haskell in 24 Hours},
             pdfproducer={Latex},
             pdfcreator={pdflatex},
             hidelinks]{hyperref}
 \usepackage{epstopdf}
-\usepackage{lib/wallpaper}
 \usepackage[margin=1in, paperwidth=6in, paperheight=9in]{geometry}
 \usepackage[utf8]{inputenc}
 \renewcommand\bibname{References}
@@ -21,21 +20,6 @@
 % http://tex.stackexchange.com/a/133442/44007
 \makeatletter
 \def\verbatim{\small\@verbatim \frenchspacing\@vobeyspaces \@xverbatim}
-\makeatother
-
-% Shrinks the top margin of the CONTENTS page
-% http://tex.stackexchange.com/a/62126/44007
-\usepackage{etoolbox}
-\makeatletter
-\let\oldtableofcontents\tableofcontents
-\renewcommand{\tableofcontents}{\begingroup%
-  \patchcmd{\@makeschapterhead}% <cmd>
-    {\vspace*{50\p@}}% <search>
-    {}% <replace>
-    {}{}% <success><failure>
-  \oldtableofcontents%
-  \endgroup%
-}
 \makeatother
 
 % Allow linebreaks within TEXTTT blocks
@@ -53,32 +37,47 @@
   \endgroup
 }
 
+\newenvironment{dedication}
+{
+	\cleardoublepage
+	\thispagestyle{empty}
+	\vspace*{\stretch{1}}
+	\hfill\begin{minipage}[t]{0.66\textwidth}
+		\raggedright
+	}
+	{
+	\end{minipage}
+	\vspace*{\stretch{3}}
+	\clearpage
+}
+
 \begin{document}
 
 \input{content/cover.tex}
+\mainmatter
 \input{content/toc.tex}
 \input{content/intro.tex}
-\input{content/day1.tex}
-\input{content/day2.tex}
-\input{content/day3.tex}
-\input{content/day4.tex}
-\input{content/day5.tex}
-\input{content/day6.tex}
-\input{content/day7.tex}
-\input{content/day8.tex}
-\input{content/day9.tex}
-\input{content/day10.tex}
-\input{content/day11.tex}
-\input{content/day12.tex}
-\input{content/day13.tex}
-\input{content/day14.tex}
-\input{content/day15.tex}
-\input{content/day16.tex}
-\input{content/day17.tex}
-\input{content/day18.tex}
-\input{content/day19.tex}
-\input{content/day20.tex}
-\input{content/day21.tex}
+\input{content/Hour1.tex}
+\input{content/Hour2.tex}
+\input{content/Hour3.tex}
+\input{content/Hour4.tex}
+\input{content/Hour5.tex}
+\input{content/Hour6.tex}
+\input{content/Hour7.tex}
+\input{content/Hour8.tex}
+\input{content/Hour9.tex}
+\input{content/Hour10.tex}
+\input{content/Hour11.tex}
+\input{content/Hour12.tex}
+\input{content/Hour13.tex}
+\input{content/Hour14.tex}
+\input{content/Hour15.tex}
+\input{content/Hour16.tex}
+\input{content/Hour17.tex}
+\input{content/Hour18.tex}
+\input{content/Hour19.tex}
+\input{content/Hour20.tex}
+\input{content/Hour21.tex}
 \input{content/cover-rear.tex}
 
 \end{document}
