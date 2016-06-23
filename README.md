@@ -34,7 +34,7 @@ Functors, Arrows, etc.
  
 ## Downloading PDFs
 
-TODO
+[Download PDF version](https://github.com/klappvisor/teach-yourself-haskell-in-24-hours/blob/master/Teach%20Yourself%20Haskell%20in%2024%20Hours.pdf)
 
 ## Buy Physical Copy
 
