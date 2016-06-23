@@ -1,9 +1,10 @@
-# Learn you Haskell in 21 days
+# Teach Yourself Haskell in 21 days
 
-Short intro
+TODO: Short intro
 
 ## Table of Content
 
+* Introduction
 * Day 1 - Getting Started
 * Day 2 - Hello World
 * Day 3 - Haskell Syntax
