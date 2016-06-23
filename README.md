@@ -1,6 +1,11 @@
 # Teach Yourself Haskell in 24 Hours
 
-TODO: Short intro
+This book consists of 24 well-structured
+and easy to follow 1-hour lessons accompanied with code examples to show
+you power and consiseness of the greates functional programming lanugage
+invented on Earth. We will start from basic concepts like functions, lambdas
+and pattern matching and continue our journey to such conepts as Monads,
+Functors, Arrows, etc.
 
 ## Table of Content
 
