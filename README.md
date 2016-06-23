@@ -31,6 +31,9 @@ Functors, Arrows, etc.
 * Hour 19 - Monoids
 * Hour 20 - Lenses
 * Hour 21 - Combinators
+* Hour 22 - Arrows
+* Hour 23 - Zippers
+* Hour 24 - Concurrency
  
 ## Downloading PDFs
 
