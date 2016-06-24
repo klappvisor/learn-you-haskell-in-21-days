@@ -2,9 +2,9 @@
 
 This book consists of 24 well-structured
 and easy to follow 1-hour lessons accompanied with code examples to show
-you power and consiseness of the greates functional programming lanugage
+you power and conciseness of the greatest functional programming language
 invented on Earth. We will start from basic concepts like functions, lambdas
-and pattern matching and continue our journey to such conepts as Monads,
+and pattern matching and continue our journey to such concepts as Monads,
 Functors, Arrows, etc.
 
 ## Table of Content
@@ -41,4 +41,4 @@ Functors, Arrows, etc.
 
 ## Buy Physical Copy
 
-Physical copy will never be available because we care about environemnt.
+Physical copy will never be available because we care about the environment.
